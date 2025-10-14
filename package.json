@@ -16,7 +16,8 @@
     "@capacitor/core": "latest",
     "@capacitor/splash-screen": "latest",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "sass": "^1.93.2"
   },
   "devDependencies": {
     "@capacitor/cli": "latest",
