@@ -1,14 +1,23 @@
-## Created with Capacitor Create App
+## React Capacitor Boilerplate
 
-This app was created using [`@capacitor/create-app`](https://github.com/ionic-team/create-capacitor-app),
-and comes with a very minimal shell for building an app.
+### To run vite in dev mode, run:
+```
+npm run start
+```
 
-### Running this example
+### To build:
+```
+npm run start
+```
 
-To run the provided example, you can use `npm start` command.
+### To build android apk:
+```
+npm run build:android
+```
 
-```bash
-npm start
+### To open android apk dir:
+```
+npm run open:apkdir
 ```
 
 ### To open project in android studio, run:
@@ -16,13 +25,13 @@ npm start
 npx cap open android
 ```
 
-Then use Android Studio to run or debug application.\
-Because this runs with errors at now:
+Then use Android Studio to run application.\
+Because this command runs with errors for now:
 ```
 npx cap run android
 ```
 
-If Android Studio says that Emulator is offline, do this:
+If Android Studio says that Emulator is offline, do this (Windows):
 ```
 adb kill-server
 taskkill /F /IM adb.exe
