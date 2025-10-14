@@ -1,16 +1,14 @@
 {
-  "name": "capacitor-app",
+  "name": "react-capacitor-boilerplate",
   "version": "1.0.0",
-  "description": "An Amazing Capacitor App",
+  "description": "",
   "type": "module",
-  "keywords": [
-    "capacitor",
-    "mobile"
-  ],
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:android": "node scripts/buildAndroid.js",
+    "open:apkdir": "node scripts/openApkDir.js"
   },
   "dependencies": {
     "@capacitor/android": "^7.4.3",
@@ -20,6 +18,7 @@
   },
   "devDependencies": {
     "@capacitor/cli": "latest",
+    "open-file-explorer": "^1.0.2",
     "vite": "^7.1.9"
   },
   "author": "",
