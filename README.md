@@ -7,7 +7,7 @@ npm run start
 
 ### To build:
 ```
-npm run start
+npm run build
 ```
 
 ### To build android apk:
